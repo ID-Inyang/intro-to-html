@@ -1,0 +1,30 @@
+3 ways to use css
+-Inline css
+-Internal css
+-External css
+
+Semantic tag - block element
+-header
+-nav
+-article
+-section
+-footer
+
+div - division container - contain other element
+
+class selector
+
+id selector
+
+<p> - opening tag 
+    this is a html tag
+</p> - closing tag
+
+void tag
+<img> - opening
+
+
+3 ways we can use color in css
+- color name
+- rgb(0, 0, 0) - color format
+- #ff00ff -base 16

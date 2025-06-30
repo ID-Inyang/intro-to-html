@@ -1,25 +1,74 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Intro to HTML</title>
+    <title>My Tech Journey</title>
+
+    <style>
+      .tech-journey {
+        display: flex;
+        margin-top: 50px;
+        margin-left: 20px;
+      }
+
+      img {
+        height: 400px;
+        border-top-left-radius: 15px;
+      }
+
+      .tech-journey-desc {
+        padding-left: 30px;
+        background-color: rgb(19, 141, 39);
+        width: 600px;
+      }
+
+      #submit-btn {
+        display: block;
+        width: 80px;
+        height: 30px;
+        background-color: rgb(6, 175, 175);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        /* margin: auto; */
+      }
+
+      #submit-btn:hover {
+        background-color: rgb(167, 32, 32);
+        color: white;
+      }
+    </style>
   </head>
   <body>
-    <h1>ID. Inyang</h1>
-    <p>My name is ID. Inyang and I am in Akwa-Ibom, I like music</p>
+    <div class="tech-journey">
+      <div class="tech-journey-img">
+        <img src="IMG_2272.PNG" width="300" alt="" />
+      </div>
 
-    <h4>List of Interest</h4>
-
-    <ul>
-      <li>Books</li>
-      <li>Music</li>
-      <li>Coding</li>
-      <li>Singing</li>
-      <li>Cooking</li>
-    </ul>
-    <h4>My Favorite Website</h4>
-    <a href="https://www.instagram.com" style="display: block;">Instagram</a>
-
-    <img src="IMG_2272.PNG" width="500px" height="300px" >
-
+      <div class="tech-journey-desc">
+        <p>
+          I started coding in 2027... Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Et eum rerum, labore fugit soluta molestias porro
+          vel rem similique ab dolore distinctio architecto natus ipsum dolores
+          placeat harum vitae amet?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+          alias dolorem explicabo qui odio obcaecati, esse quis architecto
+          excepturi deserunt cumque voluptate quae earum beatae neque ipsum
+          minima repellat illo.
+        </p>
+        <p>
+          A rock is a non living mass that forms the major part of the earths
+          crust
+        </p>
+      
+        <form action="https://formsubmit.co/id.inyang9@gmail.com" method="post">
+          <textarea name="message" id="messade" cols="30" rows="7" placeholder="Describe your tech journey"></textarea>
+          <div class="submit-cls">
+            <input type="submit" id="submit-btn">
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
